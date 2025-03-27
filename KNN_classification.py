@@ -1,6 +1,6 @@
 # KNN을 위한 라이브러리
 # 이진 분류(Binary Classification), 지도학습
-# 여러 지표(matric)를 이용해 Condition(정상 vs 부상) 예측
+# 운동 기록(matric)을 바탕으로 이 참가자가 어떤 그룹에 속했는지 예측하는 지도학습 분류 모델
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
