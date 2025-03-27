@@ -1,10 +1,10 @@
 # KNN을 위한 라이브러리
-# 이진 분류(Binary Classification), 지도학습
-# 운동 기록(matric)을 바탕으로 이 참가자가 어떤 그룹에 속했는지 예측하는 지도학습 분류 모델
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
+
+df = pd.read_csv('/content/soccer_agility_training_data.csv')
 
 # Step 1: Feature와 Target 설정
 X = df[metrics]  # 위에서 사용한 metrics 리스트 사용
